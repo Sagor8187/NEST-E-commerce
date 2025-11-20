@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "title": "The Conjuring",
+    "release_date": "2013-07-19",
+    "rating": 7.5,
+    "type": "Horror",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70251894"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B00I3O9FQY"
+      },
+      {
+        "name": "HBO Max",
+        "url": "https://www.max.com/movies/the-conjuring"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/71XwZ1jX5UL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Jumanji: Welcome to the Jungle",
+    "release_date": "2017-12-20",
+    "rating": 6.9,
+    "type": "Comedy",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80192646"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B079J3QJ1P"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81+N4PFF7HL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Parasite",
+    "release_date": "2019-05-30",
+    "rating": 8.6,
+    "type": "Thriller",
+    "language": "Korean",
+    "country": "South Korea",
+    "sources": [
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B085KQ8N1T"
+      },
+      {
+        "name": "Hulu",
+        "url": "https://www.hulu.com/movie/parasite"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/91NI1HXY6NL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Coco",
+    "release_date": "2017-11-22",
+    "rating": 8.4,
+    "type": "Animation",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/movies/coco/4mB6E7zTGRoY"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81T0sQ4i5yL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Interstellar",
+    "release_date": "2014-11-07",
+    "rating": 8.6,
+    "type": "Sci-Fi",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70305903"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B00TU9UFTS"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/71n58B4Y7pL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "3 Idiots",
+    "release_date": "2009-12-25",
+    "rating": 8.4,
+    "type": "Comedy-Drama",
+    "language": "Hindi",
+    "country": "India",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70121522"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0787WGCXT"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81E1u+J+gUL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Train to Busan",
+    "release_date": "2016-07-20",
+    "rating": 7.6,
+    "type": "Action-Horror",
+    "language": "Korean",
+    "country": "South Korea",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80117824"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B01N12KPCZ"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81L3-BBv7-L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Dark Knight",
+    "release_date": "2008-07-18",
+    "rating": 9.0,
+    "type": "Action",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70079583"
+      },
+      {
+        "name": "HBO Max",
+        "url": "https://www.max.com/movies/the-dark-knight"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/51K8ouYrHeL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Minions",
+    "release_date": "2015-07-10",
+    "rating": 6.4,
+    "type": "Comedy",
+    "language": "English",
+    "country": "USA",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80033399"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0148XN78I"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81MxunlwVtL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Your Name",
+    "release_date": "2016-08-26",
+    "rating": 8.4,
+    "type": "Romance-Fantasy",
+    "language": "Japanese",
+    "country": "Japan",
+    "sources": [
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80161371"
+      },
+      {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6QWEEQXR/your-name"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0787VCR6V"
+      }
+    ],
+    "image_url": "https://m.media-amazon.com/images/I/81kx9H1ZxlL._AC_UF894,1000_QL80_.jpg"
+  }
+]
