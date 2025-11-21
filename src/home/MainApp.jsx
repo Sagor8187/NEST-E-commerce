@@ -1,6 +1,6 @@
 import  { useState } from "react";
-import Itemscard from "./Itemscard";
-import Cart from "./Cart";
+import Itemscard from "../home/Itemscard";
+import Cart from "../home/Cart";
 
 function MainApp() {
   const [cart, setCart] = useState([]);

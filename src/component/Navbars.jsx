@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link, NavLink } from "react-router-dom";
 
 function Navbars() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,10 +23,11 @@ function Navbars() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-5 text-gray-700 font-medium">
-          <li><a href="#" className="hover:text-green-600">About</a></li>
+          <li><NavLink  to="/" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Home</NavLink></li>
+          <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>About</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
           <li><a href="#" className="hover:text-green-600">Mega Menu</a></li>
-          <li><a href="#" className="hover:text-green-600">Vendors</a></li>
+          
           <li><a href="#" className="hover:text-green-600">Blog</a></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
           <li><a href="#" className="hover:text-green-600">Contact</a></li>
@@ -54,10 +56,10 @@ function Navbars() {
         }`}
       >
         <ul className="flex flex-col gap-3 text-gray-800 font-medium p-4">
-          <li><a href="#" className="hover:text-green-600">About</a></li>
+          <li><NavLink  to="/" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Home</NavLink></li>
+          <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>About</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
           <li><a href="#" className="hover:text-green-600">Mega Menu</a></li>
-          <li><a href="#" className="hover:text-green-600">Vendors</a></li>
           <li><a href="#" className="hover:text-green-600">Blog</a></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
           <li><a href="#" className="hover:text-green-600">Contact</a></li>
