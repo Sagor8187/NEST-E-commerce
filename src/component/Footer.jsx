@@ -9,7 +9,7 @@ import { FaCcMastercard } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-white border-t mt-10 py-10 px-6 md:px-12">
+    <footer className="bg-white  mt-10 py-10 px-6 md:px-12">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
 
     {/* Column 1: Logo + Info */}
