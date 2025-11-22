@@ -28,16 +28,19 @@ function Navbars() {
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
           <li><NavLink to="/megamenu" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Mega Menu</NavLink></li>
           
-          <li><a href="#" className="hover:text-green-600">Blog</a></li>
+          <li><NavLink to="/blog" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Blog</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
-          <li><a href="#" className="hover:text-green-600">Contact</a></li>
+           <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Contact</NavLink></li>
         </ul>
 
         {/* Desktop Login Button */}
         <div className="hidden md:block">
+          <NavLink to="/login" >
           <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition">
             Login
           </button>
+          </NavLink>
+          
         </div>
 
         {/* Mobile Toggle Button */}
@@ -60,9 +63,9 @@ function Navbars() {
           <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>About</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
           <li><NavLink to="/megamenu" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Mega Menu</NavLink></li>
-          <li><a href="#" className="hover:text-green-600">Blog</a></li>
+          <li><NavLink to="/blog" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Blog</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
-          <li><a href="#" className="hover:text-green-600">Contact</a></li>
+          <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Contact</NavLink></li>
         </ul>
         <button className="mt-2 mb-4 w-[90%] mx-auto block bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition">
           Login
