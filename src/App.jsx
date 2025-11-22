@@ -3,6 +3,8 @@ import Layout from "./component/Layout";
 import About from "./page/About"
 import Home from "./page/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Megamenu from "./page/Megamenu";
+
 
 function App() {
   
@@ -16,6 +18,7 @@ function App() {
             <Route element ={<Layout></Layout>}>
                   <Route path="/" element={<Home></Home>}> </Route>
                   <Route path="/about" element ={<About></About>} ></Route>
+                  <Route path="/megamenu" element ={<Megamenu></Megamenu>} ></Route>
             
             </Route>
 

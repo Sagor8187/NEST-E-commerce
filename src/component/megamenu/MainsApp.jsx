@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Product from "./Itemscard";
+import Product from "./Product";
 import Cart from "./Cart";
 
-function MainApp() {
+function MainsApp() {
   const [cart, setCart] = useState([]);
 
   const handleAddToCart = (product) => {
@@ -55,4 +55,4 @@ function MainApp() {
   );
 }
 
-export default MainApp;
+export default MainsApp;

@@ -26,7 +26,7 @@ function Navbars() {
           <li><NavLink  to="/" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Home</NavLink></li>
           <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>About</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
-          <li><a href="#" className="hover:text-green-600">Mega Menu</a></li>
+          <li><NavLink to="/megamenu" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Mega Menu</NavLink></li>
           
           <li><a href="#" className="hover:text-green-600">Blog</a></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
@@ -59,7 +59,7 @@ function Navbars() {
           <li><NavLink  to="/" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Home</NavLink></li>
           <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>About</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Shop</a></li>
-          <li><a href="#" className="hover:text-green-600">Mega Menu</a></li>
+          <li><NavLink to="/megamenu" className={({ isActive }) => isActive ? "text-green-500" : "hover:text-black"}>Mega Menu</NavLink></li>
           <li><a href="#" className="hover:text-green-600">Blog</a></li>
           <li><a href="#" className="hover:text-green-600">Page</a></li>
           <li><a href="#" className="hover:text-green-600">Contact</a></li>

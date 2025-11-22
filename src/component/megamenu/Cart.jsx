@@ -20,7 +20,7 @@ function Cart({ cart, onIncrease, onDecrease, onRemove }) {
 
             <button
               onClick={() => onRemove(item.title)}
-              className="px-2 py-1  bg-red-600 text-white rounded">
+              className="px-2 py-1 bg-red-600 text-white rounded">
               Remove
             </button>
           </div>
